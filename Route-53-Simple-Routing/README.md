@@ -30,7 +30,7 @@ Created a new **A record** inside Route 53 using the **Simple routing policy** a
 
 ### 2. Validate Routing in Browser
 
-Opened a browser and typed the domain name and the browser successfully resolved it
+Opened a browser and type the domain name and the browser successfully resolved it
 
 ![Step 2](02-Checked-In-Browser-Simple-Routing.png)
 
