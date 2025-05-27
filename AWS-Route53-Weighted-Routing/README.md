@@ -23,7 +23,7 @@ Weighted routing allows you to associate multiple resources with a single domain
 
 ### ✅ Step 1: Record 1 - Weighted Routing
 
-We create the first A record in Route 53 pointing to the first EC2 instance with a weight (e.g., 80%).
+We create the first A record in Route 53 pointing to the first EC2 instance with a weight 80%.
 
 ![Record 1 - Weighted Routing](./01-Record-1-Weighted-Routing.png)
 
@@ -31,7 +31,7 @@ We create the first A record in Route 53 pointing to the first EC2 instance with
 
 ### ✅ Step 2: Record 2 - Weighted Routing
 
-We add the second A record pointing to the second EC2 instance with a different weight (e.g., 20%).
+We add the second A record pointing to the second EC2 instance with a different weight 20%.
 
 ![Record 2 - Weighted Routing](./02-Record-2-Weighted-Routing.png)
 
