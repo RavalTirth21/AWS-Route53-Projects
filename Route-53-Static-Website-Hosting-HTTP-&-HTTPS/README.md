@@ -33,7 +33,7 @@ Created static website hosting in S3 and linked it to Route 53 using an alias re
 Requested an ACM certificate and verified domain ownership using DNS validation via CNAME records.
 
 ![Step 3](03-Certificate-Creation-to-Make-secure-website.png)  
-![Step 4](04-Created-Record-CNAME name-CNAME value.png)  
+![Step 4](04-Created-Record-CNAME-name-CNAME-value.png)  
 ![Step 5](05-Certificate-Issued.png)
 
 ---
@@ -72,7 +72,7 @@ Route-53-Static-Website-Hosting-HTTP-&-HTTPS/
 ├── 01-Static-Website-Hosting-Alias.png
 ├── 02-Static-Website-Hosted-Unsecure.png
 ├── 03-Certificate-Creation-to-Make-secure-website.png
-├── 04-Created-Record-CNAME name-CNAME value.png
+├── 04-Created-Record-CNAME-name-CNAME-value.png
 ├── 05-Certificate-Issued.png
 ├── 06-Created-Cloudfront-Distribution.png
 ├── 07-Edited-Record-From-S3Endpoint-to-Cloudfront-Distribution.png
