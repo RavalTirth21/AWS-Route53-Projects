@@ -19,9 +19,9 @@ This project demonstrates how to host a static website on **Amazon S3**, point a
 
 ## 🛠️ Implementation Steps
 
-### 1. Static Website Hosting (HTTP)
+### 1. Creating Record For Static Website in Route53
 
-Enabled static website hosting in S3 and linked it to Route 53 using an alias record.
+Created static website hosting in S3 and linked it to Route 53 using an alias record.
 
 ![Step 1](01-Static-Website-Hosting-Alias.png)  
 ![Step 2](02-Static-Website-Hosted-Unsecure.png)
@@ -33,7 +33,7 @@ Enabled static website hosting in S3 and linked it to Route 53 using an alias re
 Requested an ACM certificate and verified domain ownership using DNS validation via CNAME records.
 
 ![Step 3](03-Certificate-Creation-to-Make-secure-website.png)  
-![Step 4](04-Created-Record-CNAME-CNAME-value.png)  
+![Step 4](04-Created-Record-CNAME name-CNAME value.png)  
 ![Step 5](05-Certificate-Issued.png)
 
 ---
@@ -43,7 +43,7 @@ Requested an ACM certificate and verified domain ownership using DNS validation 
 Created a CloudFront distribution using the S3 bucket as the origin and the ACM certificate for HTTPS. Updated DNS to point to CloudFront.
 
 ![Step 6](06-Created-Cloudfront-Distribution.png)  
-![Step 7](07-Edited-Record-From-S3Endpoint-to-Cloudfront-Distribution.png)
+![Step 7](07-Edited-Record-From-S3Endpoint-to-CloudfrontDistribution.png)
 
 ---
 
@@ -72,7 +72,7 @@ Route-53-Static-Website-Hosting-HTTP-&-HTTPS/
 ├── 01-Static-Website-Hosting-Alias.png
 ├── 02-Static-Website-Hosted-Unsecure.png
 ├── 03-Certificate-Creation-to-Make-secure-website.png
-├── 04-Created-Record-CNAME-CNAME-value.png
+├── 04-Created-Record-CNAME name-CNAME value.png
 ├── 05-Certificate-Issued.png
 ├── 06-Created-Cloudfront-Distribution.png
 ├── 07-Edited-Record-From-S3Endpoint-to-Cloudfront-Distribution.png
