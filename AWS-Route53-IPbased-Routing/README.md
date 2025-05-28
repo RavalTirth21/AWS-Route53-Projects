@@ -21,39 +21,39 @@ This practical demonstrates configuring **IP-Based Routing** in AWS Route 53 to 
 
 ### ✅ Step-1. Create Location Routing Setup
 
-![01-Created-Two-Location](01-Created-Two-Location.png)
-
 - The screenshot shows two geographic locations configured in Route 53.
+
+![01-Created-Two-Location](01-Created-Two-Location.png)
 
 ### ✅ Step-2. Create Mumbai IP Record
 
-![02-Record-1-Mumbai-1.1.1.1](02-Record-1-Mumbai-1.1.1.1.png)
-
 - A record pointing to IP `1.1.1.1` is created for Mumbai location.
+
+![02-Record-1-Mumbai-1.1.1.1](02-Record-1-Mumbai-1.1.1.1.png)
 
 ### ✅ Step-3. Create US IP Record
 
-![03-Record-2-US-2.2.2.2](03-Record-2-US-2.2.2.2.png)
-
 - A record pointing to IP `2.2.2.2` is created for the US location.
+
+![03-Record-2-US-2.2.2.2](03-Record-2-US-2.2.2.2.png)
 
 ### ✅ Step-4. Create Default IP Record
 
-![04-Record-3-Default-3.3.3.3](04-Record-3-Default-3.3.3.3.png)
-
 - Default routing record created pointing to IP `3.3.3.3` for all other locations.
+  
+![04-Record-3-Default-3.3.3.3](04-Record-3-Default-3.3.3.3.png)
 
 ### ✅ Step-5. Verify Mumbai DNS Response
 
-![05-Checked-In-Mumbai-Reply-From-1.1.1.1](05-Checked-In-Mumbai-Reply-From-1.1.1.1.png)
-
 - DNS query from Mumbai resolves to IP `1.1.1.1` as expected.
+
+![05-Checked-In-Mumbai-Reply-From-1.1.1.1](05-Checked-In-Mumbai-Reply-From-1.1.1.1.png)
 
 ### ✅ Step-6. Verify US DNS Response
 
-![06-Checked-In-US-Reply-From-2.2.2.2](06-Checked-In-US-Reply-From-2.2.2.2.png)
-
 - DNS query from US resolves to IP `2.2.2.2` as expected.
+
+![06-Checked-In-US-Reply-From-2.2.2.2](06-Checked-In-US-Reply-From-2.2.2.2.png)
 
 ---
 
