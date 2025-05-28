@@ -39,7 +39,7 @@ We create another A record pointing to an EC2 instance in India (Mumbai region),
 
 We use a machine in India to run `nslookup`. It receives the IP address of the Indian EC2 instance (Record 2), confirming latency-based routing is functioning correctly.
 
-![Checked in India - Low Latency - In Record 2](./03-Checked-In-India-Low-Latency-In-Record-2.png)
+![Checked in India - Low Latency - In Record 2](./03-Checked-In-India-Low-latency-In-Record-2.png)
 
 ---
 
