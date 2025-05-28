@@ -1,6 +1,5 @@
 # AWS Route 53 - Multivalue Routing Policy Practical
 
-## Overview
 This practical demonstrates how to configure **Multivalue Answer Routing** in **AWS Route 53** to return multiple healthy IP addresses for a DNS query, improving availability and basic load balancing.
 
 ---
