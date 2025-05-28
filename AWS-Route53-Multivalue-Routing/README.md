@@ -22,24 +22,24 @@ This practical demonstrates how to configure **Multivalue Answer Routing** in **
 
 ### ✅ Step-1. Create First Multivalue Routing Record
 
-![01-Record-1-IP-Multivalue-Routing](01-Record-1-IP-Multivalue-Routing.png)
-
 - The first A record created with Multivalue routing enabled.
 - Health check is associated to monitor this IP's health.
 
-### ✅ Step-2. Add Second Multivalue Routing Record
+![01-Record-1-IP-Multivalue-Routing](01-Record-1-IP-Multivalue-Routing.png)
 
-![02-Record-2-IP-Multivalue-Routing](02-Record-2-IP-Multivalue-Routing.png)
+### ✅ Step-2. Add Second Multivalue Routing Record
 
 - Second A record is created similarly with a different IP address.
 - Both records use Multivalue routing and have health checks.
 
-### ✅ Step-3. Test DNS Resolution via Command Line
+![02-Record-2-IP-Multivalue-Routing](02-Record-2-IP-Multivalue-Routing.png)
 
-![03-Checked-In-CMD](03-Checked-In-CMD.png)
+### ✅ Step-3. Test DNS Resolution via Command Line
 
 - Using `nslookup` on the domain name shows multiple IP addresses returned.
 - This confirms multivalue routing is functioning and healthy IPs are returned.
+
+![03-Checked-In-CMD](03-Checked-In-CMD.png)
 
 ---
 
